@@ -1,7 +1,7 @@
 
 package modelo;
 
-public class Biblioteca {
+public class Libro {
  
     private int idlibros;
     private String nombre;
@@ -9,11 +9,11 @@ public class Biblioteca {
     private String autor;
     private String pais_autor;
 
-   public Biblioteca(){
+   public Libro(){
         
     }
     
-    public Biblioteca(int idlibros,String nombre, String editorial, String autor, String pais_autor){
+    public Libro(int idlibros,String nombre, String editorial, String autor, String pais_autor){
        this.idlibros=idlibros;
         this.nombre = nombre;
         this.editorial = editorial;
